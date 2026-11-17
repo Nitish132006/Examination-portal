@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<h2>Student Dashboard</h2><p>Welcome, {{ current_user.name }}.</p><a class="btn btn-primary mb-3" href="{{ url_for('student_exams') }}">Find examinations and book slots</a><h4>My bookings</h4>{% include "booking_table.html" %}{% endblock %}

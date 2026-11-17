@@ -1,0 +1,9 @@
+body { background:#f5f7fb; color:#243247; }
+.navbar { box-shadow:0 2px 12px rgba(0,0,0,.08); }
+.card,.stat,.form-card { border:0; border-radius:14px; box-shadow:0 4px 18px rgba(25,45,75,.07); background:#fff; }
+.stat { padding:20px; height:100%; }
+.form-card { max-width:620px; margin:20px auto; padding:28px; }
+h2 { font-weight:700; margin-bottom:22px; }
+.table { background:#fff; vertical-align:middle; }
+.btn { border-radius:8px; }
+footer { font-size:.9rem; }
